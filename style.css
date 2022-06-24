@@ -1,0 +1,464 @@
+body, html {
+    height: 100%;
+    background-color: #fff;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* The image used */
+    background-image: url("assets/images/bgimg.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* To darken the BG image */
+    filter: brightness(35%);
+  }
+  
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.brand {
+    display: flex;
+    padding: 40px;
+    font-size: 50px;
+}
+
+.brand > div {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.nav {
+    display: flex;
+    justify-content:space-evenly;
+    text-transform: uppercase;
+    padding: 50px;
+}
+
+.nav a {
+    color: #8a8a8a;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav:hover a {
+    color: black;
+}
+
+.container {
+    color: white;
+    font-weight: normal;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index:auto;
+    width: 80%;
+    padding:  300px 0px 0px 30px;;
+    text-align: left;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.paragraph > p {
+    font-size: 18px;
+    color: white;
+}
+
+.button {
+    background-color: white;
+    border: 1px solid #8a8a8a;
+    color: black;
+    padding: 15px 25px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 15px;
+    transition: background-color 0.2s,
+                color 0.4s;
+}
+
+.button:hover {
+    background-color: #8a8a8a;
+    color: #fff;
+}
+
+.box-text {
+    color: black;
+    font-size: 30px;
+    padding: 80px;
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 60px;
+}
+
+.box {
+    background-color: #fff;
+    border: 0.01px solid #D3D3D3;
+    height: 620px;
+    width: 580px;    
+}
+
+.box > a {
+    text-align: center;
+    text-decoration: none;
+}
+
+.box > a > h3 {
+    font-weight:bolder;
+    font-size: 25px;
+    color: #000;
+}
+
+.box > a > h4 {
+    font-weight: lighter;
+    font-size: 25px;
+    color: #000;
+}
+
+.box > a > h5 {
+    font-weight:bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.section2 {
+    position: relative;
+    padding-left: 40px;
+    padding-bottom: 60px;
+  }
+
+.box-landing {
+    background-image: url("assets/images/rocket-launch.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 530px;
+    width: 800px;
+    position: relative;
+    /*margin: 30px;*/
+}
+
+.box-landing2 {
+    background-image: url("assets/images/grey-pattern.jpg");
+    position: absolute;
+    height: 280px;
+    width: 500px;
+    right: 140px;
+    bottom: -15px;
+}
+
+.section2 >div >h3 {
+    color: white;
+    font-size: 30px;
+    text-align: justify;
+    padding-left: 60px;
+    padding-top: 15px;
+}
+
+.section2 >div >p {
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 60px;
+    padding-right: 40px;
+}
+
+.section2 >div .button2 {
+    padding-left: 60px;
+}
+
+.section2 >div .button {
+    width: 250px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.section3 {
+    position: relative;
+    padding-left: 40px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+  }
+
+.box-rocket {
+    background-image: url("assets/images/bigrocket.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 530px;
+    width: 800px;
+    position: relative;
+    left: 400px;
+    /*margin: 30px;*/
+}
+
+.box-rocket2 {
+    background-image: url("assets/images/grey-pattern.jpg");
+    position: absolute;
+    height: 280px;
+    width: 500px;
+    left: 140px;
+    bottom: -15px;
+}
+
+.section3 >div >h3 {
+    color: white;
+    font-size: 30px;
+    text-align: justify;
+    padding-left: 60px;
+    padding-top: 15px;
+}
+
+.section3 >div >p {
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 60px;
+    padding-right: 40px;
+}
+
+.section3 >div .button2 {
+    padding-left: 60px;
+}
+
+.section3 >div .button {
+    width: 250px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.section4 {
+    position: relative;
+    padding-left: 40px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+  }
+
+.box-gas {
+    background-image: url("assets/images/bgimg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 530px;
+    width: 800px;
+    position: relative;
+    /*margin: 30px;*/
+}
+
+.box-gas2 {
+    background-image: url("assets/images/grey-pattern.jpg");
+    position: absolute;
+    height: 280px;
+    width: 500px;
+    right: 140px;
+    bottom: -5px;
+}
+
+.section4 >div >h3 {
+    color: white;
+    font-size: 30px;
+    text-align: justify;
+    padding-left: 60px;
+    padding-top: 15px;
+}
+
+.section4 >div >p {
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 60px;
+    padding-right: 40px;
+}
+
+.section4 >div .button2 {
+    padding-left: 60px;
+}
+
+.section4 >div .button {
+    width: 250px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.section5 {
+    display: grid;
+    /*justify-content: center;
+    align-items: center;*/
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.section5 >.button-purple, .content {
+    margin: auto;
+}
+
+.section5 > .content {
+    color: black;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.button-purple {
+    background-color: #814ebf;
+    border: 2px solid #814ebf;
+    color: white;
+    padding: 15px 25px;
+    width: 250px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.2s,
+                color 0.4s;
+}
+
+.button-purple:hover {
+    background-color: purple;
+    color: #fff;
+}
+
+.section5 > div> h1, h3, p {
+    color: black;
+}
+  
+.section5 > div> p {
+    padding: 15px;
+    font-size: 30px;
+}
+
+.section5 > div> h1 {
+    text-justify: auto;
+}
+
+.section6 {
+    display: flex;
+    flex-basis: auto;
+    justify-content: space-between;
+    height: 300px;
+    background-color: #814EBF;
+}
+
+.section6 >div {
+    justify-content: space-between;
+}
+
+.text {
+    height: 200px;
+    width: 800px;
+    padding-top: 60px;
+    padding-left: 80px;
+}
+
+.section6 >div > div> p, h2 {
+    color: #fff;
+}
+
+.section6 >div >div> h2 {
+    font-size: 38px;
+}
+
+.section6 >div > div> p {
+    font-size: 22px;
+}
+
+.button3{
+    padding-right: 100px;
+    padding-top: 135px;
+}
+
+.button-contact {
+    background-color: white;
+    border: 1px solid #8a8a8a;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 230px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.2s,
+                color 0.4s;
+}
+
+.button-contact:hover {
+    background-color: #8a8a8a;
+    color: #fff;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 0.2fr;
+    row-gap: 40px;
+    height: 300px;
+    background-color: #000;
+}
+
+.title {
+    font-size: 15px;
+    font-weight: bold;
+    color: #8a8a8a;
+    text-decoration: none;
+    padding: 80px 0px 10px 100px;
+}
+
+.frame {
+    width: auto;
+}
+
+.frame > div > a {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;    
+    padding: 15px 0px 10px 100px;
+}
+
+.frame >div > p {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none;    
+    padding-left: 100px;
+}
+
+.socials {
+    padding: 60px 0px 10px 0px;
+}
+
